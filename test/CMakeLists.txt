@@ -13,5 +13,3 @@ if(MSVC)
 set(WINTEST sample)
 set_target_properties(${WINTEST} PROPERTIES FOLDER "tests/lac")
 endif()
-install(DIRECTORY ../src/ DESTINATION include/lac
-         FILES_MATCHING PATTERN "*.hpp")
